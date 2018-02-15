@@ -1,16 +1,14 @@
 # MMM-DLijn
 <B>Station monitor</B> for the <B>De Lijn</B> a local transport bus and tramsystem.<P>
 
-This Module uses the basecode from [Yo-Less<sup>2</sup>] (https://github.com/yo-less/MMM-DLijn/).
+This Module uses the build on base code from [Yo-Less] (https://github.com/yo-less/MMM-KVV/).
 
 ## Screenshots
 
 
 ## Current version
 
-v1.0
-
-## initial commit
+v1.0 initial commit
 First working version
 
 ## Prerequisite
@@ -79,33 +77,10 @@ Sample configuration entry for your `~/MagicMirror/config/config.js` with option
 | reload<BR>`optional`  | 60000 | <BR> How often should the information be updated? (In milliseconds) <BR><EM> Default: Every minute </EM><P> |
 
 
-## ReLicenced
+## ReLicensed
 MIT License
 
 Copyright (c) 2018 SeppeM (https://github.com/SeppeM/)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-## Original Licence
-MIT License
-
-Copyright (c) 2016 yo-less (https://github.com/yo-less/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
