@@ -21,22 +21,23 @@ module.exports = NodeHelper.create({
 	 * Generates an url with api parameters based on the config.
 	 *
 	 * return String - URL params.
+	 * Link format: https://www.delijn.be/rise-api-core/haltes/vertrekken/{stopID}/{maxConn}/
 	 */
 	
 	getParams: function() {
 			var params = this.config.stopID;
-			params += "?";
+        params += "/";
 			if (this.config.maxConn !== '') {
-			params += "maxInfos=" + this.config.maxConn + "&";
-			}
-			params +="key=" + this.config.apiKey;
+                params += this.config.maxConn + "/";
 			return params;
+            }
 	},
 	
     socketNotificationReceived: function(notification, payload) {
         if(notification === 'CONFIG'){
             this.config = payload;
-			var kvv_url = this.config.apiBase + this.getParams();
+            var kvv_url = this.config.apiBase + this.getParams();
+            //console.log("De link is: " + kvv_url);
 			this.getData(kvv_url, this.config.stopID);
         }
     },

@@ -1,5 +1,9 @@
-# MMM-KVV changelog
-This module adheres to [Semantic Versioning](http://semver.org/).
+# MMM-DLijn changelog
+
+
+## [1.0.0] Rebased - 2018-02-15
+
+## Rebased & initial release
 
 ## [1.0.3] - 2016-10-21
 
