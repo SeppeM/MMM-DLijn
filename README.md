@@ -20,7 +20,7 @@ A working installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/
 
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder.
-2. Execute `git clone https://github.com/yo-less/MMM-DLijn.git`.
+2. Execute `git clone https://github.com/SeppeM/MMM-DLijn`.
 3. Execute `cd MMM-DLijn`.
 3. Execute `npm install`.
 
