@@ -90,26 +90,8 @@ Module.register("MMM-DLijn", {
 
                 if (this.config.lines !== '') {
 
-                    if (this.kvv_lines(tram.lijnNummer, this.config.lines)) {
-
-                        counter = counter + 1;
-                    }
-
-                } else {
-
-                    if (this.config.direction === '1') {
-                        if (tram.bestemming === '1') {
-                            counter = counter + 1;
-                        }
-                    } else if (this.config.direction === '2') {
-                        if (tram.bestemming === '2') {
-                            counter = counter + 1;
-                        }
-                    } else {
-                        counter = counter + 1;
-                    }
+                    counter = counter + 1;
                 }
-
             }
 
             if (counter > 0 && this.config.labelRow) {
