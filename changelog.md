@@ -11,7 +11,7 @@
 - Restored connection by switching API url prefix to "https://"
 
 ### Added
-- Version info now shown inside 'MMM-KVV.js'
+- Version info now shown inside 'MMM-DLijn.js'
 
 ## [1.0.2] - 2016-09-03
 

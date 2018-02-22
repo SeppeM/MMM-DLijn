@@ -29,7 +29,7 @@ Module.register("MMM-DLijn", {
     },
 
     getStyles: function () {
-        return ["MMM-KVV.css"];
+        return ["MMM-DLijn.css"];
     },
 
     start: function () {
