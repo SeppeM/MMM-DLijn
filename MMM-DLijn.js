@@ -128,12 +128,12 @@ Module.register("MMM-DLijn", {
                 if (this.config.lines !== '') {
 
                     if (this.kvv_lines(tram.lijnNummer, this.config.lines)) {
-
+                        table.appendChild(this.createDataRow(tram));
                         counter = counter + 1;
                     }
 
                 } else {
-
+                    table.appendChild(this.createDataRow(tram));
                     counter = counter + 1;
                 }
 
