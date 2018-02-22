@@ -1,19 +1,19 @@
-.MMM-KVV .table {
+.MMM-DLijn .table {
     border-spacing: 0px 0px;
     border-collapse: separate;
     text-align: left;
 	}
 
-.MMM-KVV .spacerRow {
+.MMM-DLijn .spacerRow {
 	padding-bottom: 5px;
 	}
 
-.MMM-KVV .destination {
+.MMM-DLijn .destination {
 	font-weight: normal;
 	color: white;
 	}
-	
-.MMM-KVV .line {
+
+.MMM-DLijn .line {
     border-spacing: 10px 0px;
     border-collapse: separate;
     text-align: left;
@@ -21,15 +21,15 @@
 	font-weight: normal;
 	width: 50px;
 	}
-	
-.MMM-KVV .departure {
+
+.MMM-DLijn .departure {
 	padding-left: 10px;
 	text-align: right;
 	font-weight: normal;
 	color: white;
 	}
-	
-.MMM-KVV .noTramRow {
+
+.MMM-DLijn .noTramRow {
 	font-weight: normal;
 	color: white;
 	}
