@@ -92,17 +92,7 @@ Module.register("MMM-DLijn", {
 
                     if (this.kvv_lines(tram.lijnNummer, this.config.lines)) {
 
-                        if (this.config.direction === '1') {
-                            if (tram.bestemming === '1') {
-                                counter = counter + 1;
-                            }
-                        } else if (this.config.direction === '2') {
-                            if (tram.bestemming === '2') {
-                                counter = counter + 1;
-                            }
-                        } else {
-                            counter = counter + 1;
-                        }
+                        counter = counter + 1;
                     }
 
                 } else {
@@ -139,38 +129,12 @@ Module.register("MMM-DLijn", {
 
                     if (this.kvv_lines(tram.lijnNummer, this.config.lines)) {
 
-                        if (this.config.direction === '1') {
-                            if (tram.bestemming === '1') {
-                                table.appendChild(this.createDataRow(tram));
-                                counter = counter + 1;
-                            }
-                        } else if (this.config.direction === '2') {
-                            if (tram.bestemming === '2') {
-                                table.appendChild(this.createDataRow(tram));
-                                counter = counter + 1;
-                            }
-                        } else {
-                            table.appendChild(this.createDataRow(tram));
-                            counter = counter + 1;
-                        }
+                        counter = counter + 1;
                     }
 
                 } else {
 
-                    if (this.config.direction === '1') {
-                        if (tram.bestemming === '1') {
-                            table.appendChild(this.createDataRow(tram));
-                            counter = counter + 1;
-                        }
-                    } else if (this.config.direction === '2') {
-                        if (tram.bestemming === '2') {
-                            table.appendChild(this.createDataRow(tram));
-                            counter = counter + 1;
-                        }
-                    } else {
-                        table.appendChild(this.createDataRow(tram));
-                        counter = counter + 1;
-                    }
+                    counter = counter + 1;
                 }
 
             }
