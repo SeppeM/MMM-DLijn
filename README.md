@@ -10,7 +10,7 @@ This Module was build upon the base code from [Yo-Less] (https://github.com/yo-l
 ## Current version
 
 v1.0.1 initial commit
-Patchwork and code cleanup
+Patchwork and code cleanup.
 
 ## Prerequisite
 A working installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
