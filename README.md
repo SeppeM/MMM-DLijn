@@ -5,6 +5,7 @@ This Module uses the build on base code from [Yo-Less] (https://github.com/yo-le
 
 ## Screenshots
 
+![example](screenshots/example.png)
 
 ## Current version
 
@@ -35,7 +36,7 @@ Sample minimum configuration entry for your `~/MagicMirror/config/config.js`:
     {
         module: 'MMM-DLijn',
         position: 'top_left',
-        header: 'stopName'
+        header: 'stopName' // At the moment this is a manual (optional)
         config: {
 			stopID: '',		// Which stop would you like to have displayed?			
         }
@@ -50,7 +51,7 @@ Sample configuration entry for your `~/MagicMirror/config/config.js` with option
     {
         module: 'MMM-DLijn',
         position: 'top_left',
-        header: 'stopName'
+        header: 'stopName'  // At the moment this is a manual (optional)
         config: {
 			stopID: '',		// Which stop would you like to have displayed?
 			maxConn: 6,		// How many connections would you like to see? (Maximum: 10)
