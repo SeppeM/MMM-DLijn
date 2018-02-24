@@ -1,5 +1,8 @@
 # MMM-DLijn changelog
 
+## [1.0.1] - 2018-02-24
+
+## Code cleanup
 
 ## [1.0.0] Rebased - 2018-02-15
 

@@ -1,7 +1,7 @@
 # MMM-DLijn
-<B>Station monitor</B> for the <B>De Lijn</B> a local transport bus and tramsystem.<P>
+<B>Station monitor</B> for the <B>De Lijn</B> the flemish public bus transport company.<P>
 
-This Module uses the build on base code from [Yo-Less] (https://github.com/yo-less/MMM-KVV/).
+This Module was build upon the base code from [Yo-Less] (https://github.com/yo-less/MMM-KVV/).
 
 ## Screenshots
 
@@ -9,8 +9,8 @@ This Module uses the build on base code from [Yo-Less] (https://github.com/yo-le
 
 ## Current version
 
-v1.0 initial commit
-First working version
+v1.0.1 initial commit
+Patchwork and code cleanup
 
 ## Prerequisite
 A working installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
@@ -64,7 +64,7 @@ Sample configuration entry for your `~/MagicMirror/config/config.js` with option
     ...
 
 ## Figuring out the correct stopID
-1. Open your web browser and navigate to the (https://www.delijn.be/en/haltes/).
+1. Open your web browser and navigate to (https://www.delijn.be/en/haltes/).
 2. Use the search field to find the stop you are interested in.
 3. Once you can see the list of connections for your stop in your browser, note the information between the (),<BR> this is the `StopID` you are looking for.
 
